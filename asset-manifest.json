@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortafolioNew/static/css/main.7cfed740.chunk.css",
+    "main.css": "/PortafolioNew/static/css/main.bcf36af4.chunk.css",
     "main.js": "/PortafolioNew/static/js/main.76901c26.chunk.js",
     "main.js.map": "/PortafolioNew/static/js/main.76901c26.chunk.js.map",
     "runtime-main.js": "/PortafolioNew/static/js/runtime-main.fae22bbb.js",
@@ -8,7 +8,7 @@
     "static/js/2.bfaa2c86.chunk.js": "/PortafolioNew/static/js/2.bfaa2c86.chunk.js",
     "static/js/2.bfaa2c86.chunk.js.map": "/PortafolioNew/static/js/2.bfaa2c86.chunk.js.map",
     "index.html": "/PortafolioNew/index.html",
-    "static/css/main.7cfed740.chunk.css.map": "/PortafolioNew/static/css/main.7cfed740.chunk.css.map",
+    "static/css/main.bcf36af4.chunk.css.map": "/PortafolioNew/static/css/main.bcf36af4.chunk.css.map",
     "static/js/2.bfaa2c86.chunk.js.LICENSE.txt": "/PortafolioNew/static/js/2.bfaa2c86.chunk.js.LICENSE.txt",
     "static/media/admin.438f68d2.jpeg": "/PortafolioNew/static/media/admin.438f68d2.jpeg",
     "static/media/climaapp.ef64c386.png": "/PortafolioNew/static/media/climaapp.ef64c386.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.fae22bbb.js",
     "static/js/2.bfaa2c86.chunk.js",
-    "static/css/main.7cfed740.chunk.css",
+    "static/css/main.bcf36af4.chunk.css",
     "static/js/main.76901c26.chunk.js"
   ]
 }
