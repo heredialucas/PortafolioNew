@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortafolioNew/static/css/main.a8639f4e.chunk.css",
+    "main.css": "/PortafolioNew/static/css/main.b7e65471.chunk.css",
     "main.js": "/PortafolioNew/static/js/main.6dfc1781.chunk.js",
     "main.js.map": "/PortafolioNew/static/js/main.6dfc1781.chunk.js.map",
     "runtime-main.js": "/PortafolioNew/static/js/runtime-main.fae22bbb.js",
@@ -8,7 +8,7 @@
     "static/js/2.f6dc0620.chunk.js": "/PortafolioNew/static/js/2.f6dc0620.chunk.js",
     "static/js/2.f6dc0620.chunk.js.map": "/PortafolioNew/static/js/2.f6dc0620.chunk.js.map",
     "index.html": "/PortafolioNew/index.html",
-    "static/css/main.a8639f4e.chunk.css.map": "/PortafolioNew/static/css/main.a8639f4e.chunk.css.map",
+    "static/css/main.b7e65471.chunk.css.map": "/PortafolioNew/static/css/main.b7e65471.chunk.css.map",
     "static/js/2.f6dc0620.chunk.js.LICENSE.txt": "/PortafolioNew/static/js/2.f6dc0620.chunk.js.LICENSE.txt",
     "static/media/admin.438f68d2.jpeg": "/PortafolioNew/static/media/admin.438f68d2.jpeg",
     "static/media/bootstrap.333f5e43.svg": "/PortafolioNew/static/media/bootstrap.333f5e43.svg",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.fae22bbb.js",
     "static/js/2.f6dc0620.chunk.js",
-    "static/css/main.a8639f4e.chunk.css",
+    "static/css/main.b7e65471.chunk.css",
     "static/js/main.6dfc1781.chunk.js"
   ]
 }
