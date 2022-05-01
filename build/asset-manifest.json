@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/PortafolioNew/static/css/main.8426f49a.chunk.css",
+    "main.js": "/PortafolioNew/static/js/main.d4dfb42c.chunk.js",
+    "main.js.map": "/PortafolioNew/static/js/main.d4dfb42c.chunk.js.map",
+    "runtime-main.js": "/PortafolioNew/static/js/runtime-main.fae22bbb.js",
+    "runtime-main.js.map": "/PortafolioNew/static/js/runtime-main.fae22bbb.js.map",
+    "static/js/2.f6dc0620.chunk.js": "/PortafolioNew/static/js/2.f6dc0620.chunk.js",
+    "static/js/2.f6dc0620.chunk.js.map": "/PortafolioNew/static/js/2.f6dc0620.chunk.js.map",
+    "index.html": "/PortafolioNew/index.html",
+    "static/css/main.8426f49a.chunk.css.map": "/PortafolioNew/static/css/main.8426f49a.chunk.css.map",
+    "static/js/2.f6dc0620.chunk.js.LICENSE.txt": "/PortafolioNew/static/js/2.f6dc0620.chunk.js.LICENSE.txt",
+    "static/media/admin.438f68d2.jpeg": "/PortafolioNew/static/media/admin.438f68d2.jpeg",
+    "static/media/climaapp.ef64c386.png": "/PortafolioNew/static/media/climaapp.ef64c386.png",
+    "static/media/contador.d85153ed.png": "/PortafolioNew/static/media/contador.d85153ed.png",
+    "static/media/crudjs.e0561ee3.png": "/PortafolioNew/static/media/crudjs.e0561ee3.png",
+    "static/media/ecom.ab5dad56.png": "/PortafolioNew/static/media/ecom.ab5dad56.png",
+    "static/media/listareact.81c49523.png": "/PortafolioNew/static/media/listareact.81c49523.png",
+    "static/media/pelisapp.cacf555b.png": "/PortafolioNew/static/media/pelisapp.cacf555b.png",
+    "static/media/pokemonapp.5c2283c1.png": "/PortafolioNew/static/media/pokemonapp.5c2283c1.png",
+    "static/media/portafolio.3d364f11.png": "/PortafolioNew/static/media/portafolio.3d364f11.png",
+    "static/media/portafolioNew.0fbbdf54.png": "/PortafolioNew/static/media/portafolioNew.0fbbdf54.png",
+    "static/media/tempo.60cdf2c5.png": "/PortafolioNew/static/media/tempo.60cdf2c5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fae22bbb.js",
+    "static/js/2.f6dc0620.chunk.js",
+    "static/css/main.8426f49a.chunk.css",
+    "static/js/main.d4dfb42c.chunk.js"
+  ]
+}

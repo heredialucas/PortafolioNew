@@ -1,88 +1,68 @@
-import { useState, useEffect } from 'react';
-import PortfolioList from '../portfolioList/PortfolioList';
-import '../../data.js'
-import './portfolio.scss';
-import {
-    featuredPortfolio,
-    webPortfolio,
-    mobilePortfolio,
-    designPortfolio,
-    contentPortfolio
-} from '../../data';
+import { useState, useEffect } from "react";
+import PortfolioList from "../portfolioList/PortfolioList";
+import "../../data.js";
+import "./portfolio.scss";
+import { webPortfolio, mobilePortfolio, bassicPortfolio } from "../../data";
 
 export default function Portfolio() {
-    const [ selected, setSelected ] = useState("featured");
-    const [ data, setData ] = useState([]);
-    const list = [
-        {
-            id: "featured",
-            title: "Featured",
-        },
-        {
-            id: "web",
-            title: "Web App",
-        },
-        {
-            id: "mobile",
-            title: "Mobile App",
-        },
-        {
-            id: "design",
-            title: "Design",
-        },
-        {
-            id: "content",
-            title: "Content",
-        },
-    ];
+  const blank = "_blank";
+  const [selected, setSelected] = useState("Mobile ");
+  const [data, setData] = useState([]);
+  const list = [
+    {
+      id: "web",
+      title: "Web ",
+    },
+    {
+      id: "mobile",
+      title: "Mobile ",
+    },
+    {
+      id: "bassic",
+      title: "Bassic ",
+    },
+  ];
 
-    useEffect(() => {
+  useEffect(() => {
+    switch (selected) {
+      case "web":
+        setData(webPortfolio);
+        break;
+      case "mobile":
+        setData(mobilePortfolio);
+        break;
+      case "bassic":
+        setData(bassicPortfolio);
+        break;
+      default:
+        setData(mobilePortfolio);
+    }
+  }, [selected]);
 
-        switch (selected) {
-            case "featured":
-                setData(featuredPortfolio);
-                break;
-            case "web":
-                setData(webPortfolio);
-                break;
-            case "mobile":
-                setData(mobilePortfolio);
-                break;
-            case "design":
-                setData(designPortfolio);
-                break;
-            case "content":
-                setData(contentPortfolio);
-                break;
-            default:
-                setData(featuredPortfolio);
-        }
-    }, [selected]);
-
-    return (
-        <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
-            <ul>
-                {list.map((item) => (
-                    <PortfolioList 
-                        title={item.title}
-                        active={selected === item.id}
-                        setSelected={setSelected}
-                        id={item.id}
-                    />
-                ))}
-            </ul>
-            <div className="container">
-                {data.map((d)=> (
-                    <div className="item">
-                        <img
-                            src= {d.img}
-                            alt=""
-                        />
-                        <h3> {d.title} </h3>
-                    </div>
-                ))}
+  return (
+    <div className="portfolio" id="portfolio">
+      <div className="containerAll">
+        <ul>
+          {list.map((item) => (
+            <PortfolioList
+              title={item.title}
+              active={selected === item.id}
+              setSelected={setSelected}
+              id={item.id}
+            />
+          ))}
+        </ul>
+        <div className="container">
+          {data.map((d) => (
+            <div key={d.title} className="item">
+              <a href={`${d.link}`} target={blank}>
+                <img src={d.img} alt="" />
+                <h3> {d.title} </h3>
+              </a>
             </div>
+          ))}
         </div>
-    );
+      </div>
+    </div>
+  );
 }
