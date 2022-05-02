@@ -6,7 +6,7 @@ import { webPortfolio, mobilePortfolio, bassicPortfolio } from "../../data";
 
 export default function Portfolio() {
   const blank = "_blank";
-  const [selected, setSelected] = useState("Mobile ");
+  const [selected, setSelected] = useState("web");
   const [data, setData] = useState([]);
   const list = [
     {

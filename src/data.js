@@ -8,7 +8,33 @@ import crud from "./assets/images/crudjs.png";
 import listaReact from "./assets/images/listareact.png";
 import admin from "./assets/images/admin.jpeg";
 import portafolio from "./assets/images/portafolio.png";
-import portafolioNew from "./assets/images/portafolioNew.png";
+
+export const Projects = [
+  {
+    id: 1,
+    title: "Weather App",
+    img: wheater,
+    link: "https://heredialucas.github.io/Clima-app",
+  },
+  {
+    id: 2,
+    title: "Pelis App",
+    img: pelis,
+    link: "https://heredialucas.github.io/Pelis-App",
+  },
+  {
+    id: 3,
+    title: "Ecommerce App",
+    img: ecom,
+    link: "https://client-ecomerce-8v2op6u5a-neriheredia.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Pokemon App",
+    img: pokemon,
+    link: "https://pokemon-front-lucas.herokuapp.com",
+  },
+];
 
 export const webPortfolio = [
   {
@@ -39,6 +65,7 @@ export const webPortfolio = [
     id: 5,
     title: "Admin App",
     img: admin,
+    link: "https://admin-ecomerce-789fjvs1b-neriheredia.vercel.app/login",
   },
   {
     id: 5,
@@ -68,22 +95,10 @@ export const mobilePortfolio = [
     link: "https://heredialucas.github.io/Pelis-App",
   },
   {
-    id: 4,
-    title: "Contador App",
-    img: contador,
-    link: "https://heredialucas.github.io/AppReact",
-  },
-  {
     id: 5,
     title: "Temporizador App",
     img: tempo,
     link: "https://heredialucas.github.io/Tempo",
-  },
-  {
-    id: 6,
-    title: "Lista React App",
-    img: listaReact,
-    link: "https://heredialucas.github.io/ListaReact",
   },
   {
     id: 7,

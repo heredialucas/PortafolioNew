@@ -21,14 +21,43 @@
             display: flex;
             justify-content: center;
             text-align: center;
-            align-items: flex-end;
+            align-items: center;
             justify-content: center;
             float: right;
 
             @include mobile {
-                align-items: flex-start;
+                width: 500px;
+                height: 500px;
             }
+            
 
+                h1 {
+                    font-size: 60px;
+                    margin: 10px 0;
+                    @include mobile{
+                        font-size: 40px;
+                        margin: 0;
+                    }
+                    
+                span {
+                    font-size: inherit;
+                    color: $blanco;
+                }
+                }
+        
+                h2 {
+                    font-size: 35px;
+                }
+        
+                h3 {
+                    font-size: 30px;
+        
+                    @include mobile {
+                        font-size: 20px;       
+                    }
+                }
+        
+            
            
         
         }
@@ -37,27 +66,39 @@
     .right{
         flex: 0.5;
         position: relative;
+        display: flex;
+        justify-content: center;
 
         .wrapper {
-            width: 100%;
+            width: 80%;
             height: 100%;
             padding-left: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
 
             @include mobile {
                 font-size: 40px;
                 padding-left: 0;    
-            }
-        }
-
-        h1 {
-            font-size: 60px;
-            margin: 10px 0;
-            @include mobile{
-                font-size: 40px;
                 margin: 0;
+                justify-content: flex-start;
+            align-items: center;
+            }   
+            h2 {
+                font-size: 40px;
+                margin: 20px 0;
+                @include mobile{
+                    font-size: 25px;
+                }
+            }
+            p{
+                font-size: 25px;
+                margin: 10px 0;
+                text-align: center;
+                @include mobile{
+                    font-size: 20px;
+                }
             }
         }
 
@@ -71,11 +112,6 @@
             @include mobile {
                 font-size: 20px;       
             }
-        }
-
-        span {
-            font-size: inherit;
-            color: #336b87;
         }
 
         .ityped-cursor {

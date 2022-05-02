@@ -3,6 +3,7 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Tecnologias from "./components/Tecnologias/Tecnologias";
 import Contact from "./components/contact/Contact";
+import Carousel from "./components/carousel/Carousel";
 import Menu from "./components/menu/Menu";
 import { useState } from "react";
 import "./app.scss";
@@ -17,6 +18,7 @@ function App() {
       <div className="sections">
         <Intro />
         <Portfolio />
+        {/* <Carousel /> */}
         <Tecnologias />
         <Contact />
       </div>
