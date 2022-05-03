@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortafolioNew/static/css/main.e0619918.css",
-    "main.js": "/PortafolioNew/static/js/main.bda801f0.js",
+    "main.css": "/PortafolioNew/static/css/main.3715055e.css",
+    "main.js": "/PortafolioNew/static/js/main.3e225bd5.js",
     "static/media/ecom.png": "/PortafolioNew/static/media/ecom.ab5dad5693ab26ef6cd7.png",
     "static/media/pelisapp.png": "/PortafolioNew/static/media/pelisapp.cacf555bc4fbaedfde40.png",
     "static/media/climaapp.png": "/PortafolioNew/static/media/climaapp.ef64c38625749d8fe052.png",
@@ -33,11 +33,11 @@
     "index.html": "/PortafolioNew/index.html",
     "static/media/icongit.svg": "/PortafolioNew/static/media/icongit.45c85edfccc9a3b6bedd9badfac27e7c.svg",
     "static/media/mui.svg": "/PortafolioNew/static/media/mui.9f1d0f087967e5b0a70423532a4a906f.svg",
-    "main.e0619918.css.map": "/PortafolioNew/static/css/main.e0619918.css.map",
-    "main.bda801f0.js.map": "/PortafolioNew/static/js/main.bda801f0.js.map"
+    "main.3715055e.css.map": "/PortafolioNew/static/css/main.3715055e.css.map",
+    "main.3e225bd5.js.map": "/PortafolioNew/static/js/main.3e225bd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0619918.css",
-    "static/js/main.bda801f0.js"
+    "static/css/main.3715055e.css",
+    "static/js/main.3e225bd5.js"
   ]
 }
